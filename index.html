@@ -8,9 +8,7 @@
         content="Brighten someone's day with Faugei Flower Shop in Sathmatha, Bogura. Fresh, hand-tied bouquets, romantic roses, and floral gifts for every occasion – with fast, same-day delivery.">
     <title>Faugei Flower Shop | Home Page</title>
     <!-- ===== Start: Fontawesome CDN ===== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
     <!-- ===== End: Fontawesome CDN ===== -->
 
     <!-- ===== Start: Tailwind CDN and tailwind css link ===== -->
@@ -25,8 +23,47 @@
 
 <body>
     <!-- ===== Start: Header Section ===== -->
-    <header>
-
+    <header class="max-w-[1140px] mx-auto px-4">
+        <!-- ===== Start: Navbar ===== -->
+        <nav class="flex justify-between items-center p-4">
+            <!-- brand img  -->
+            <img class="w-20 lg:w-32 h-auto" src="./assets/logo.png" alt="Faugei flower shop logo">
+            <ul class="hidden sm:flex gap-12 ">
+                <li><a class="inter-font font-semibold active:text-[var(--secondary-color)]" href="#">Home</a></li>
+                <li><a class="inter-font font-semibold text-[var(--accent-color)]" href="#">Shop</a>
+                </li>
+                <li><a class="inter-font font-semibold text-[var(--accent-color)]" href="#">About
+                        Us</a></li>
+                <li>
+                    <a class="inter-font font-semibold " href="#">
+                        <i class="fa-solid fa-cart-plus"></i>
+                        Cart ($56)
+                    </a>
+                </li>
+            </ul>
+            <!-- Product for mobile divices  -->
+            <a class="inter-font font-semibold sm:hidden" href="#">
+                <i class="fa-solid fa-cart-plus"></i>
+                Cart ($56)
+            </a>
+        </nav>
+        <!-- ===== End: Navbar ===== -->
+        <!-- ===== Start: Banner Section ===== -->
+        <section class="flex items-center hidden">
+            <div class="w-1/2">
+                <h1 class="text-6xl font-bold nato-font">Always<span class="text-[var(--brand-color)]">Fresh</span>
+                    <br>
+                    <span class="text-[var(--brand-color)]">Flower</span>
+                </h1>
+                <p class="inter-font text-2xl text-[var(--accent-color)]">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="w-1/2">
+                <img src="./assets/hero-flower.png" alt="flower booke in banner section">
+            </div>
+        </section>
+        <!-- ===== End: Banner Section ===== -->
     </header>
     <!-- ===== End: Header Section ===== -->
 

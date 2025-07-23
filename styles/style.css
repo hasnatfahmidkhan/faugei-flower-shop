@@ -1,0 +1,18 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+/* ===== Start: Theme color ===== */
+:root {
+  --brand-color: #e95a08;
+  --primary-color: #000;
+  --secondary-color: #252432;
+  --accent-color: #25243280;
+}
+/* ===== End: Theme color ===== */
+/* ===== Start: Same Styles ===== */
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+.nato-font {
+  font-family: "Noto Serif", serif;
+}
+/* ===== End: Same Styles ===== */
