@@ -28,7 +28,7 @@ ul li a::before {
   border-radius: 3px;
   background-color: var(--accent-color);
 }
-ul li a:hover::before{
+ul li a:hover::before {
   animation: move 1s;
 }
 @keyframes move {
