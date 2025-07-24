@@ -16,6 +16,7 @@
   font-family: "Noto Serif", serif;
 }
 .add-to-cart-btn {
+  border-radius: 6px;
   transition: transform .3s ease;
 }
 .add-to-cart-btn:hover {
