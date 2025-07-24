@@ -15,12 +15,42 @@
 .nato-font {
   font-family: "Noto Serif", serif;
 }
+ul li a {
+  position: relative;
+}
+ul li a::before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  border-radius: 3px;
+  background-color: var(--accent-color);
+}
+ul li a:hover::before{
+  animation: move 1s;
+}
+@keyframes move {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  50% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 0%;
+  }
+}
 .add-to-cart-btn {
   border-radius: 6px;
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
 }
 .add-to-cart-btn:hover {
-  transform: scale(.95); 
+  transform: scale(0.95);
 }
 /* ===== End: Same Styles ===== */
 
