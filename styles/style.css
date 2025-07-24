@@ -15,6 +15,12 @@
 .nato-font {
   font-family: "Noto Serif", serif;
 }
+.add-to-cart-btn {
+  transition: transform .3s ease;
+}
+.add-to-cart-btn:hover {
+  transform: scale(.95); 
+}
 /* ===== End: Same Styles ===== */
 
 /* ===== Start: Animtion  ===== */
